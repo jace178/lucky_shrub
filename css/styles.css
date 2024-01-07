@@ -1,0 +1,156 @@
+body {
+  background-image: url("https://vagadagro.in/wp-content/uploads/2021/08/garden-color-palette-.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  margin: 3rem 5% 3rem 5%;
+}
+
+/* header */
+header img {
+  height: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.fade-in {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.zoom-out {
+  animation: zoom-out 2s;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(3, 3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.logo-bg {
+  background-color: #2b978e;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* nav bar */
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+nav li {
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  margin: 2rem;
+  color: white;
+}
+/* main content */
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.ph-text {
+  color: white;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  text-align: center;
+  border: #26877f 2px solid;
+  border-radius: 15px;
+  box-shadow: 2px 3px 4px #2b978e;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info {
+  margin: 2rem 1rem 2rem 1rem;
+  background-color: rgba(74, 134, 187, 0.946);
+}
+
+.promo {
+  padding-bottom: 1rem;
+  background-color: rgb(139, 85, 147);
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+article img {
+  height: 8rem;
+  border-radius: 5px;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+/* footer */
+footer {
+  color: white;
+}
+
+footer div {
+  flex: 1;
+  margin: auto;
+}
+
+footer img {
+  height: 7rem;
+  padding-left: 3rem;
+}
+
+.footer-logo-bg {
+  background-color: #26877f;
+  display: flex;
+  height: 9rem;
+  border-radius: 15px;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+/* links */
+.info:hover,
+li:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}

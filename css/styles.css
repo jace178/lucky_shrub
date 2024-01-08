@@ -69,15 +69,23 @@ li a {
   margin: 2rem;
   color: white;
 }
+
+ul li {
+  background-color: rgba(74, 134, 187, 0.946);
+  border-radius: 15px;
+  margin-left: 1rem;
+}
+
 /* main content */
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-h1 p {
+article p {
   margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -95,9 +103,9 @@ section {
 article {
   flex: 1;
   text-align: center;
-  border: #26877f 2px solid;
+  border: #639692 2px solid;
   border-radius: 15px;
-  box-shadow: 2px 3px 4px #2b978e;
+  box-shadow: 3px 3px 6px #41928b;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -107,9 +115,15 @@ article {
   background-color: rgba(74, 134, 187, 0.946);
 }
 
+.info p {
+  height: 170px;
+  width: 400px;
+  overflow: hidden;
+}
+
 .promo {
   padding-bottom: 1rem;
-  background-color: rgb(139, 85, 147);
+  background-color: rgb(240, 13, 96);
   color: white;
   margin-left: 1rem;
   margin-right: 1rem;
